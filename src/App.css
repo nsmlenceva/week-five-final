@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #F7ECDE;
+  font-family: 'Caveat', cursive;
 }
-
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 50px;
+  margin-bottom: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-size: 30px;
+  margin: 0;
+  line-height: 1.5;
+}
+.btnClear {
+  font-family: 'Caveat', cursive;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  background-color: #54BAB9;
+  color: #F7ECDE;
+  align-self: center;
+  padding: 10px;
+  margin: 20px;
+} 
+.btnClear:hover {
+  background-color: #00e69c; 
+}
+.btnDel {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0;
+  border: none;
+  background-color: #F7ECDE;
+  cursor: pointer;
+  background: url("https://cdn-icons-png.flaticon.com/128/1177/1177463.png?ga=GA1.2.12781574.1649802887") no-repeat center;
+  background-size: cover;
+}
+.btnDel:hover {
+  background: url("https://cdn-icons-png.flaticon.com/128/1177/1177464.png?ga=GA1.2.12781574.1649802887") no-repeat center;
+  background-size: cover;
+}
+h3 {
+  margin-top: 50px;
 }
